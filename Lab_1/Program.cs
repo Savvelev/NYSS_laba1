@@ -190,7 +190,7 @@ namespace Lab_work_1
                 $"Номер: {Phonenumber}\n" +
                 $"Страна: {Country}\n" +
                 $"Отчество: { Middlename}\n" +
-                 $"Дата Рождения: {Birthdate}\n" +
+                 $"Дата Рождения: {Birthdate.ToString("dd.MM.yy")}\n" +
                  $"Место работы: {ThePlacework}\n" +
                  $"Должность: {Position}\n" +
                  $"Другие заметки: {Othernotes}";
